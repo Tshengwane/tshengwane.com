@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(lightgrey, wheat);
+    color: black; 
+    line-height: 1,6;
+}
+
+header{
+
+    padding: 20px;
+}
+
+header h1{
+    text-align: center;
+    list-style: none;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+} 
+
+.heros{
+    background-image: url("IMG_20250723_123105.jpg");
+    background-size: cover;
+    background-position: center;
+    color:#fff;
+    padding: 100px 20px;
+    
+    text-align: start;
+    
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    gap: 10px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input{ 
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+input:hover{
+    background-color: wheat;
+}
+
+textarea{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+textarea:hover{
+    background-color: wheat;
+}
+
+button{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:wheat ;
+}
+
+
+
+section{
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+footer{
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
+}
